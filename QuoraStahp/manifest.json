@@ -1,0 +1,20 @@
+{
+  "name" : "QuoraStahp",
+  "version" : "0.1",
+  "description" : "Removes annoying signup notifications on Quora",
+  
+  
+  
+  "content_scripts" : [
+    {
+      "matches" : [ 
+         "http://www.quora.com/*",
+         "https://www.quora.com/*"
+      ],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : true
+    }
+  ],
+  "manifest_version": 2
+}
