@@ -4,7 +4,11 @@
   "description" : "Removes annoying signup notifications on Quora",
   
   
-  
+  "icons" : {
+    "16" : "quora-stahp-16.png",
+    "48" : "quora-stahp-48.png",
+    "128" : "quora-stahp-128.png"
+  },
   "content_scripts" : [
     {
       "matches" : [ 
